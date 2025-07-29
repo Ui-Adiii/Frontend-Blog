@@ -17,6 +17,8 @@ import {
   BsDribbble,
 } from "react-icons/bs";
 
+
+
 const FooterCom = () => {
   return (
     <Footer container className="border border-t-8 border-teal-500">
