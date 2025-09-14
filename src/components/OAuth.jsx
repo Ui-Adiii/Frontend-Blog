@@ -37,7 +37,7 @@ const OAuth = () => {
   return (
     <Button
       onClick={handleGoogleClick}
-      type="button" className='text-black bg-gradient-to-l from-pink-400 to-orange-400'  ><AiFillGoogleCircle className='w-6 h-6 mr-2' /> Continue with Google</Button>
+      type="button" className='text-black hidden bg-gradient-to-l from-pink-400 to-orange-400'  ><AiFillGoogleCircle className='w-6 h-6 mr-2' /> Continue with Google</Button>
   )
 }
 
