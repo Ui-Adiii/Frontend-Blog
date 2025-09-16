@@ -177,7 +177,7 @@ const DashProfile = () => {
         disabled={loading}>
           {loading? "loading...":"Update"}
         </Button>
-        {currentUser.isAdmin && (
+        {currentUser && (
           <Link to='/create-post'>
           <Button type="button" color="pink" outline className="w-[300px] mt-2">
             Create a Post
